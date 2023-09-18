@@ -1,7 +1,7 @@
 package db
 
 import (
-	dbm "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/db"
+	dbm "github.com/opzlabs/cosmos-db v0.1.3"
 	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
 )
 

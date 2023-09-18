@@ -15,7 +15,7 @@ require (
 	github.com/confio/ics23/go v0.9.0
 	github.com/cosmos/btcutil v1.0.5
 	github.com/cosmos/cosmos-proto v1.0.0-alpha7
-	github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/db v1.0.0-beta.1
+	github.com/opzlabs/cosmos-db v0.1.3 v1.0.0-beta.1
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/iavl v0.19.6
 	github.com/cosmos/ledger-cosmos-go v0.12.2

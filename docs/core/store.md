@@ -236,7 +236,7 @@ When `KVStore.Set` or `KVStore.Delete` methods are called, `listenkv.Store` auto
 
 The SDK is in the process of transitioning to use the types listed here as the default interface for state storage. At the time of writing, these cannot be used within an application and are not directly compatible with the `CommitMultiStore` and related types.
 
-These types use the new `db` sub-module of Cosmos-SDK (`github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/db`), rather than `tmdb` (`github.com/tendermint/tm-db`).
+These types use the new `db` sub-module of Cosmos-SDK (`github.com/opzlabs/cosmos-db v0.1.3`), rather than `tmdb` (`github.com/tendermint/tm-db`).
 
 See [ADR-040](../architecture/adr-040-storage-and-smt-state-commitments.md) for the motivations and design specifications of the change.
 

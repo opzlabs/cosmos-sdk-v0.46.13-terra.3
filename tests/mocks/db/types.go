@@ -7,7 +7,7 @@ package mocks
 import (
 	reflect "reflect"
 
-	db "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/db"
+	db "github.com/opzlabs/cosmos-db v0.1.3"
 	gomock "github.com/golang/mock/gomock"
 )
 
