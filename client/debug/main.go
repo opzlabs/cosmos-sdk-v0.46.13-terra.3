@@ -9,15 +9,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
+	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version"
 
-	legacybech32 "github.com/cosmos/cosmos-sdk/types/bech32/legacybech32" //nolint:staticcheck
+	legacybech32 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/bech32/legacybech32" //nolint:staticcheck
 )
 
 var flagPubkeyType = "type"

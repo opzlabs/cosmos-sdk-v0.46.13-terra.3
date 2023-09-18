@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
 )
 
 // Testing ORM with arbitrary metadata length

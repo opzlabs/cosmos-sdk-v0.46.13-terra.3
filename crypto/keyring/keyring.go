@@ -14,16 +14,16 @@ import (
 	"github.com/pkg/errors"
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/bcrypt"
-	"github.com/cosmos/cosmos-sdk/crypto/ledger"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/go-bip39"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/input"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/bcrypt"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/ledger"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
 )
 
 // Backend options for Keyring

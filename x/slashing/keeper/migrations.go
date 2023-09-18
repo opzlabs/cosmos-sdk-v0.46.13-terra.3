@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	v043 "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v043"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	v043 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/slashing/migrations/v043"
 )
 
 // Migrator is a struct for handling in-place store migrations.

@@ -8,12 +8,12 @@ import (
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/cosmos/cosmos-sdk/x/slashing/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/slashing/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/slashing/types"
 )
 
 // nolint:deadcode,unused,varcheck

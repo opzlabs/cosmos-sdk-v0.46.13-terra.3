@@ -1,13 +1,13 @@
 // Package v040 is copy-pasted from:
-// https://github.com/cosmos/cosmos-sdk/blob/v0.41.0/x/slashing/types/keys.go
+// https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/v0.41.0/x/slashing/types/keys.go
 package legacy
 
 import (
 	"encoding/binary"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/kv"
-	v042auth "github.com/cosmos/cosmos-sdk/x/auth/migrations/v042"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
+	v042auth "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/migrations/v042"
 )
 
 const (

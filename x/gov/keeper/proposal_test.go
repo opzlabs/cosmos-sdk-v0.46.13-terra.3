@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types"
+	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
 )
 
 func (suite *KeeperTestSuite) TestGetSetProposal() {

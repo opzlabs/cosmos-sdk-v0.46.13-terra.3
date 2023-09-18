@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
+	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 // Account contains a privkey, pubkey, address tuple

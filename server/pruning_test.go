@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	pruningtypes "github.com/cosmos/cosmos-sdk/pruning/types"
+	pruningtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/pruning/types"
 )
 
 func TestGetPruningOptionsFromFlags(t *testing.T) {

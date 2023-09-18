@@ -4,18 +4,18 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/store/cachekv"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/cachekv"
 
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
 	tiavl "github.com/cosmos/iavl"
 
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/gaskv"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/dbadapter"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/gaskv"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/iavl"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 // copied from iavl/store_test.go

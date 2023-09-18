@@ -1,12 +1,12 @@
 package baseapp
 
 import (
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 // TODO: Can be removed once we move all middleware tests into x/auth/middleware
-// ref: #https://github.com/cosmos/cosmos-sdk/issues/10282
+// ref: #https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/10282
 
 // CheckState is an exported method to be able to access baseapp's
 // checkState in tests.

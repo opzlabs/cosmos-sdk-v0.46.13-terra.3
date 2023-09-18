@@ -7,18 +7,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	cdctypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/helpers"
+	simappparams "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/params"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/keeper"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/simulation"
 
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
 )
 
 var initialGroupID = uint64(100000000000000)

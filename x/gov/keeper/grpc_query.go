@@ -6,13 +6,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	v046 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v046"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
+	v046 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/migrations/v046"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types"
+	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
 )
 
 var _ v1.QueryServer = Keeper{}

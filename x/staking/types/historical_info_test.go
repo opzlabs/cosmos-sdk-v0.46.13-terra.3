@@ -5,14 +5,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/legacy"
 
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
 )
 
 var header = tmproto.Header{

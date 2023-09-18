@@ -7,10 +7,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/input"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keyring"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
 )
 
 const (

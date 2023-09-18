@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
 )
 
 // ParamChanges defines the parameters that can be modified by param change proposals

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math/rand"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
-	vestingtypes "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
+	vestingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/vesting/types"
 )
 
 // Simulation parameter constants

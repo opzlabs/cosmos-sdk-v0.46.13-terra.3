@@ -3,7 +3,7 @@ package types
 import (
 	"io"
 
-	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
 )
 
 // WriteListener interface for streaming data out from a KVStore

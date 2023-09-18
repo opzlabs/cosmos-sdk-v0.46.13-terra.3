@@ -14,18 +14,18 @@ import (
 	tmos "github.com/tendermint/tendermint/libs/os"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/server"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/version"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/tx"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keyring"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version"
+	authclient "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/client/cli"
 )
 
 // GenTxCmd builds the application's gentx command.
@@ -141,13 +141,13 @@ $ %s gentx my-key-name 1000000stake --home=/path/to/home/dir --keyring-backend=o
 			// and `create-validator` commands:
 			// - `gentx` expects amount as an arg,
 			// - `create-validator` expects amount as a required flag.
-			// ref: https://github.com/cosmos/cosmos-sdk/issues/8251
+			// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/8251
 			// Since gentx doesn't set the amount flag (which `create-validator`
 			// reads from), we copy the amount arg into the valCfg directly.
 			//
 			// Ideally, the `create-validator` command should take a validator
 			// config file instead of so many flags.
-			// ref: https://github.com/cosmos/cosmos-sdk/issues/8177
+			// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/8177
 			createValCfg.Amount = amount
 
 			// create a 'create-validator' message

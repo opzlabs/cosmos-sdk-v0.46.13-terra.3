@@ -13,9 +13,9 @@ import (
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 
-	"github.com/cosmos/cosmos-sdk/store/rootmulti"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/rootmulti"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
 )
 
 // GetNode returns an RPC client. If the context's client is not defined, an

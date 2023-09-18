@@ -1,7 +1,7 @@
 package testslashing
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/slashing/types"
 )
 
 // TestParams construct default slashing params for tests.

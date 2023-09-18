@@ -6,11 +6,11 @@ import (
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	clitestutil "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/cli"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/client/cli"
+	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
 )
 
 func (s *IntegrationTestSuite) TestCmdParams() {

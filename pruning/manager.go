@@ -9,7 +9,7 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/pruning/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/pruning/types"
 )
 
 // Manager is an abstraction to handle the logic needed for

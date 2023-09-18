@@ -12,11 +12,11 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
 )
 
 var _ baseapp.StreamingService = &StreamingService{}

@@ -1,12 +1,12 @@
 package keeper_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramskeeper "github.com/cosmos/cosmos-sdk/x/params/keeper"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	paramskeeper "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/keeper"
 )
 
 func testComponents() (*codec.LegacyAmino, sdk.Context, storetypes.StoreKey, storetypes.StoreKey, paramskeeper.Keeper) {

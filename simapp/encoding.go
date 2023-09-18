@@ -1,8 +1,8 @@
 package simapp
 
 import (
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	"github.com/cosmos/cosmos-sdk/std"
+	simappparams "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/params"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/std"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for testing. This function

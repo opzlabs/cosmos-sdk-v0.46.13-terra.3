@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	simappparams "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/params"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/keeper"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
 )
 
 // Simulation operation weights constants
@@ -416,7 +416,7 @@ func SimulateMsgCancelUnbondingDelegate(ak types.AccountKeeper, bk types.BankKee
 		// currently the staking msgServer chooses the first unbondingDelegationEntry
 		// with the matching creationHeight.
 		//
-		// ref: https://github.com/cosmos/cosmos-sdk/issues/12932
+		// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/12932
 		creationHeight := unbondingDelegation.Entries[r.Intn(len(unbondingDelegation.Entries))].CreationHeight
 
 		var unbondingDelegationEntry types.UnbondingDelegationEntry

@@ -9,13 +9,13 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
+	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/simulation"
 )
 
 type SimTestSuite struct {

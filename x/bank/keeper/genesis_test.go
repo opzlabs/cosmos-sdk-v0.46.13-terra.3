@@ -1,10 +1,10 @@
 package keeper_test
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	minttypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
 )
 
 func (suite *IntegrationTestSuite) TestExportGenesis() {

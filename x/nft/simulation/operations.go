@@ -3,18 +3,18 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/nft"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	cdctypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/helpers"
+	simappparams "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/params"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft"
 
-	"github.com/cosmos/cosmos-sdk/x/nft/keeper"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft/keeper"
 
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/simulation"
 )
 
 const (

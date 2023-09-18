@@ -9,16 +9,16 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/store"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store"
 
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
+	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/internal/orm"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/keeper"
 )
 
 type invariantTestSuite struct {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/types/address"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/address"
 )
 
 func TestStoreKeySuite(t *testing.T) {

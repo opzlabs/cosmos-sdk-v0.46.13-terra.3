@@ -8,12 +8,12 @@ import (
 	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/spf13/pflag"
 
-	crg "github.com/cosmos/cosmos-sdk/server/rosetta/lib/server"
+	crg "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta/lib/server"
 
-	clientflags "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	clientflags "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 // configuration defaults constants

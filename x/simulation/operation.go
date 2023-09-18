@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"sort"
 
-	"github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
 )
 
 // entry kinds for use within OperationEntry

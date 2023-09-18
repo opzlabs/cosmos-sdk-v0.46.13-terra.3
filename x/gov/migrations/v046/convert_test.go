@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	v046 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v046"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx"
+	v046 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/migrations/v046"
+	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
+	upgradetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -29,7 +29,7 @@ func NewCompactBitArray(bits int) *CompactBitArray {
 	if nElems <= 0 || nElems > math.MaxInt32 {
 		// We encountered an overflow here, and shouldn't pass negatives
 		// to make, nor should we allow unreasonable limits > maxint32.
-		// See https://github.com/cosmos/cosmos-sdk/issues/9162
+		// See https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/9162
 		return nil
 	}
 	return &CompactBitArray{

@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	v046 "github.com/cosmos/cosmos-sdk/x/staking/migrations/v046"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	v046 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/migrations/v046"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
 )
 
 func TestMigrateJSON(t *testing.T) {

@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	v046staking "github.com/cosmos/cosmos-sdk/x/staking/migrations/v046"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	paramtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
+	v046staking "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/migrations/v046"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
 )
 
 func TestStoreMigration(t *testing.T) {

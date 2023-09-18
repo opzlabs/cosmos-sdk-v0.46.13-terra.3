@@ -152,4 +152,4 @@ Proposed
 
 ## References
 
-* [#4554](https://github.com/cosmos/cosmos-sdk/issues/4554)
+* [#4554](https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/4554)

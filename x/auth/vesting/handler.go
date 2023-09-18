@@ -1,10 +1,10 @@
 package vesting
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/keeper"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/vesting/types"
 )
 
 // NewHandler returns a handler for x/auth message types.

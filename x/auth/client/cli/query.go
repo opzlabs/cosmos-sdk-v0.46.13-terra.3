@@ -9,14 +9,14 @@ import (
 	"github.com/spf13/cobra"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/version"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version"
+	authtx "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/tx"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
 )
 
 const (

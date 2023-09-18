@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/errors"
 )
 
 // defaultPageLimit is the default limit value for pagination requests.

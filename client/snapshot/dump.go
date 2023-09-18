@@ -9,7 +9,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
 	"github.com/spf13/cobra"
 )
 

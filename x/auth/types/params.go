@@ -5,7 +5,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	paramtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
 )
 
 // Default parameter values

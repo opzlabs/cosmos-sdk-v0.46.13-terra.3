@@ -5,15 +5,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/tx"
+	clienttx "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/tx"
+	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	txtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
+	authsigning "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
 )
 
 var (

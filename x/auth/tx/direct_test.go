@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	txtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx"
+	signingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
 )
 
 func TestDirectModeHandler(t *testing.T) {

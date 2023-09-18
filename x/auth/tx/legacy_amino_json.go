@@ -3,11 +3,11 @@ package tx
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	signingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/migrations/legacytx"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
 )
 
 const aminoNonCriticalFieldsError = "protobuf transaction contains unknown non-critical fields. This is a transaction malleability issue and SIGN_MODE_LEGACY_AMINO_JSON cannot be used."

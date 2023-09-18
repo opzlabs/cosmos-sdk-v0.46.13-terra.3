@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/snapshots"
-	"github.com/cosmos/cosmos-sdk/snapshots/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots/types"
 )
 
 var opts = types.NewSnapshotOptions(1500, 2)

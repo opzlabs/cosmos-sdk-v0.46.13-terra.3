@@ -6,13 +6,13 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/rest"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/network"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/rest"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	grpctypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/grpc"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/distribution/types"
 )
 
 type GRPCQueryTestSuite struct {

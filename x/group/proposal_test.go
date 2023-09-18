@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
 )
 
 // TestGogoUnmarshalProposal tests some weird behavior in gogoproto

@@ -3,7 +3,7 @@ package v1_test
 import (
 	"testing"
 
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
 	"github.com/stretchr/testify/require"
 )
 

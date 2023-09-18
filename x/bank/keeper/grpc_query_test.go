@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	vestingtypes "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
-	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
+	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
+	vestingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/vesting/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	minttypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
 )
 
 func (suite *IntegrationTestSuite) TestQueryBalance() {

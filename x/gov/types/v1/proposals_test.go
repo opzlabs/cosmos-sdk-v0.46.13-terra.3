@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
 )
 
 func TestProposalStatus_Format(t *testing.T) {
@@ -32,7 +32,7 @@ func TestProposalStatus_Format(t *testing.T) {
 // Here, we're creating a proposal which has a Msg (1st any) with a legacy
 // content (2nd any).
 func TestNestedAnys(t *testing.T) {
-	// TODO https://github.com/cosmos/cosmos-sdk/issues/10965
+	// TODO https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/10965
 	t.Skip()
 	testProposal := v1beta1.NewTextProposal("Proposal", "testing proposal")
 	msgContent, err := v1.NewLegacyContent(testProposal, "cosmos1govacct")

@@ -1,9 +1,9 @@
 package testutil
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	bankkeeper "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/keeper"
+	minttypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
 )
 
 // FundAccount is a utility function that funds an account by minting and

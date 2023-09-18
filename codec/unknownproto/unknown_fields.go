@@ -15,7 +15,7 @@ import (
 	"github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
 	"google.golang.org/protobuf/encoding/protowire"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
 )
 
 const bit11NonCritical = 1 << 10

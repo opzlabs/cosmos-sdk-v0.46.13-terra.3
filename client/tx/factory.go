@@ -7,14 +7,14 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keyring"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
+	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
 )
 
 // Factory defines a client transaction factory that facilitates generating and
@@ -360,7 +360,7 @@ func (f Factory) BuildSimTx(msgs ...sdk.Msg) ([]byte, error) {
 // Note, we should only check for keys in the keybase if we are in simulate and execute mode,
 // e.g. when using --gas=auto.
 // When using --dry-run, we are is simulation mode only and should not check the keybase.
-// Ref: https://github.com/cosmos/cosmos-sdk/issues/11283
+// Ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/11283
 func (f Factory) getSimPK() (cryptotypes.PubKey, error) {
 	var (
 		ok bool

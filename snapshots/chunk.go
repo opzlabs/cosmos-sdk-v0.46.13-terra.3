@@ -4,8 +4,8 @@ import (
 	"io"
 	"math"
 
-	snapshottypes "github.com/cosmos/cosmos-sdk/snapshots/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	snapshottypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
 )
 
 // ChunkWriter reads an input stream, splits it into fixed-size chunks, and writes them to a

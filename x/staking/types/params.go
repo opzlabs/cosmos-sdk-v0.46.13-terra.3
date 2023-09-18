@@ -9,9 +9,9 @@ import (
 	"cosmossdk.io/math"
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	paramtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
 )
 
 // Staking params default values

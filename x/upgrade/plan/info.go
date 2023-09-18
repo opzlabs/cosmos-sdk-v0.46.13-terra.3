@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/internal/conv"
 )
 
 // Info is the special structure that the Plan.Info string can be (as json).

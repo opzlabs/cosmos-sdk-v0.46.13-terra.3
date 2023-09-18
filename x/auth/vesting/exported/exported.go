@@ -3,9 +3,9 @@ package exported
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 // VestingAccount defines an account type that vests coins via a vesting schedule.

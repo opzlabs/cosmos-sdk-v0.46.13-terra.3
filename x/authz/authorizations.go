@@ -3,7 +3,7 @@ package authz
 import (
 	"github.com/gogo/protobuf/proto"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 // Authorization represents the interface of various Authorization types implemented

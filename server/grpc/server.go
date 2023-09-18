@@ -7,13 +7,13 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/cosmos/cosmos-sdk/server/grpc/gogoreflection"
-	reflection "github.com/cosmos/cosmos-sdk/server/grpc/reflection/v2alpha1"
-	"github.com/cosmos/cosmos-sdk/server/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/config"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/grpc/gogoreflection"
+	reflection "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/grpc/reflection/v2alpha1"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/types"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 // StartGRPCServer starts a gRPC server on the given address.

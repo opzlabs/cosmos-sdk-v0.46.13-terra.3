@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
 )
 
 var (
@@ -531,7 +531,7 @@ func (s *coinTestSuite) TestAddCoins() {
 }
 
 // Tests that even if coins with repeated denominations are passed into .Add that they
-// are correctly coalesced. Please see issue https://github.com/cosmos/cosmos-sdk/issues/13234
+// are correctly coalesced. Please see issue https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/13234
 func TestCoinsAddCoalescesDuplicateDenominations(t *testing.T) {
 	A := sdk.Coins{
 		{"den", sdk.NewInt(2)},

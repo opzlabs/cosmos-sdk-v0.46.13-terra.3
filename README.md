@@ -10,31 +10,31 @@ parent:
 ![banner](docs/cosmos-sdk-image.jpg)
 
 <div align="center">
-  <a href="https://github.com/cosmos/cosmos-sdk/blob/main/LICENSE">
+  <a href="https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/main/LICENSE">
     <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/cosmos/cosmos-sdk.svg" />
   </a>
-  <a href="https://pkg.go.dev/github.com/cosmos/cosmos-sdk?tab=doc">
-    <img alt="GoDoc" src="https://pkg.go.dev/github.com/cosmos/cosmos-sdk?status.svg" />
+  <a href="https://pkg.go.dev/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3?tab=doc">
+    <img alt="GoDoc" src="https://pkg.go.dev/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3?status.svg" />
   </a>
-  <a href="https://goreportcard.com/report/github.com/cosmos/cosmos-sdk">
-    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/cosmos/cosmos-sdk" />
+  <a href="https://goreportcard.com/report/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3">
+    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3" />
   </a>
   <a href="https://codecov.io/gh/cosmos/cosmos-sdk">
     <img alt="Code Coverage" src="https://codecov.io/gh/cosmos/cosmos-sdk/branch/main/graph/badge.svg" />
   </a>
 </div>
 <div align="center">
-  <a href="https://github.com/cosmos/cosmos-sdk">
+  <a href="https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3">
     <img alt="Lines Of Code" src="https://tokei.rs/b1/github/cosmos/cosmos-sdk" />
   </a>
   <a href="https://discord.gg/AzefAFd">
     <img alt="Discord" src="https://img.shields.io/discord/669268347736686612.svg" />
   </a>
-  <a href="https://sourcegraph.com/github.com/cosmos/cosmos-sdk?badge">
-    <img alt="Imported by" src="https://sourcegraph.com/github.com/cosmos/cosmos-sdk/-/badge.svg" />
+  <a href="https://sourcegraph.com/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3?badge">
+    <img alt="Imported by" src="https://sourcegraph.com/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/-/badge.svg" />
   </a>
-    <img alt="Sims" src="https://github.com/cosmos/cosmos-sdk/workflows/Sims/badge.svg" />
-    <img alt="Lint Satus" src="https://github.com/cosmos/cosmos-sdk/workflows/Lint/badge.svg" />
+    <img alt="Sims" src="https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/workflows/Sims/badge.svg" />
+    <img alt="Lint Satus" src="https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/workflows/Lint/badge.svg" />
 </div>
 
 The Cosmos SDK is a framework for building blockchain applications. [Tendermint Core (BFT Consensus)](https://github.com/tendermint/tendermint) and the Cosmos SDK are written in the Golang programming language. Cosmos SDK is used to build [Gaia](https://github.com/cosmos/gaia), the first implementation of the Cosmos Hub.
