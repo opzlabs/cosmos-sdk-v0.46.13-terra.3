@@ -1,6 +1,6 @@
 go 1.19
 
-module github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3
+module github.com/opzlabs/cosmos-sdk
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
