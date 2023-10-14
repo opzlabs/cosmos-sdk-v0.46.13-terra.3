@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 )
 
 // GetQueryCmd returns the parent command for all x/upgrade CLi query commands.

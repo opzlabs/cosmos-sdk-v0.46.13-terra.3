@@ -6,14 +6,14 @@ import (
 	"cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	v042bank "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/migrations/v042"
-	v043bank "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/migrations/v043"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	v042bank "github.com/opzlabs/cosmos-sdk/x/bank/migrations/v042"
+	v043bank "github.com/opzlabs/cosmos-sdk/x/bank/migrations/v043"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 func TestSupplyMigration(t *testing.T) {

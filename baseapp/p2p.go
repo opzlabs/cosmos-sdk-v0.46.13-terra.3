@@ -8,8 +8,8 @@ package baseapp
 // so this file mostly acts as confusing boilerplate.
 
 import (
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	kmultisig "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/multisig"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	kmultisig "github.com/opzlabs/cosmos-sdk/crypto/keys/multisig"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/opzlabs/cosmos-sdk/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 func TestBech32KeysOutput(t *testing.T) {

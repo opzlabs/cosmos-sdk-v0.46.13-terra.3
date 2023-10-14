@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types/proposal"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/params/types"
+	"github.com/opzlabs/cosmos-sdk/x/params/types/proposal"
 )
 
 type KeeperTestSuite struct {

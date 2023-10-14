@@ -5,20 +5,20 @@ import (
 	"fmt"
 	"time"
 
-	minttypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
+	minttypes "github.com/opzlabs/cosmos-sdk/x/mint/types"
 
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/evidence/exported"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/evidence/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/evidence/types"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk/x/evidence/exported"
+	"github.com/opzlabs/cosmos-sdk/x/evidence/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/evidence/types"
 )
 
 var (

@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	signingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	signingtypes "github.com/opzlabs/cosmos-sdk/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk/x/auth/signing"
 )
 
 func TestLegacyAminoJSONHandler_GetSignBytes(t *testing.T) {

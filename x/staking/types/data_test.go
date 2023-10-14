@@ -3,10 +3,10 @@ package types_test
 import (
 	"fmt"
 
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 var (

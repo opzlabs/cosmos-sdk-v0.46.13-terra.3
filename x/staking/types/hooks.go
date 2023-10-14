@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // combine multiple staking hooks, all hook functions are run in array sequence

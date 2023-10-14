@@ -1,9 +1,9 @@
 package testutil
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
-	clitestutil "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/cli"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil/client/cli"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	clitestutil "github.com/opzlabs/cosmos-sdk/testutil/cli"
+	"github.com/opzlabs/cosmos-sdk/x/genutil/client/cli"
 )
 
 // An example exported genesis file from a 0.37 chain. Note that evidence

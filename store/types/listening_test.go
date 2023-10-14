@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/codec/types"
 )
 
 func TestNewStoreKVPairWriteListener(t *testing.T) {

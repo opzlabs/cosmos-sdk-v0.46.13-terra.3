@@ -3,10 +3,10 @@ package multisig
 import (
 	"github.com/tendermint/tendermint/crypto/sr25519"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
 )
 
 // TODO: Figure out API for others to either add their own pubkey types, or

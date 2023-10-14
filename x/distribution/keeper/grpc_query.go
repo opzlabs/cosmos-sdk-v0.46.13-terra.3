@@ -6,12 +6,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/distribution/types"
-	stakingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/query"
+	"github.com/opzlabs/cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 var _ types.QueryServer = Keeper{}

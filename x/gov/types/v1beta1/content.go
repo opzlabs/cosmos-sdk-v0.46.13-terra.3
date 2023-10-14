@@ -1,6 +1,6 @@
 package v1beta1
 
-import sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+import sdk "github.com/opzlabs/cosmos-sdk/types"
 
 // Content defines an interface that a proposal must implement. It contains
 // information such as the title and description along with the type and routing

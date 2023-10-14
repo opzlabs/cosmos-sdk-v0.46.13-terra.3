@@ -3,10 +3,10 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	gov "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/errors"
+	gov "github.com/opzlabs/cosmos-sdk/x/gov/types"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 )
 
 type msgServer struct {

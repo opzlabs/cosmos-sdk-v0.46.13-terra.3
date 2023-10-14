@@ -3,16 +3,16 @@ package keeper
 import (
 	"fmt"
 
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/evidence/exported"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/evidence/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/evidence/exported"
+	"github.com/opzlabs/cosmos-sdk/x/evidence/types"
 )
 
 // Keeper defines the evidence module's keeper. The keeper is responsible for

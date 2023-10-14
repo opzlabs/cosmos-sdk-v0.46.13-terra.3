@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // NewValidatorSigningInfo creates a new ValidatorSigningInfo instance

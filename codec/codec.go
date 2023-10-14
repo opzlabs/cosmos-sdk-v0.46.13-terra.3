@@ -4,7 +4,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc/encoding"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk/codec/types"
 )
 
 type (

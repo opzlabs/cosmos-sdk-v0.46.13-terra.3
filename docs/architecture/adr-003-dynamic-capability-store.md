@@ -341,4 +341,4 @@ Proposed.
 
 ## References
 
-* [Original discussion](https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/pull/5230#discussion_r343978513)
+* [Original discussion](https://github.com/opzlabs/cosmos-sdk/pull/5230#discussion_r343978513)

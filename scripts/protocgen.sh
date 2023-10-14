@@ -36,5 +36,5 @@ cd ..
 (cd testutil/testdata; buf generate)
 
 # move proto files to the right places
-cp -r github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/* ./
+cp -r github.com/opzlabs/cosmos-sdk/* ./
 rm -rf github.com

@@ -1,15 +1,15 @@
 package keeper
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/telemetry"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/address"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
-	paramtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	"github.com/opzlabs/cosmos-sdk/telemetry"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
+	paramtypes "github.com/opzlabs/cosmos-sdk/x/params/types"
 )
 
 // SendKeeper defines a module interface that facilitates the transfer of coins

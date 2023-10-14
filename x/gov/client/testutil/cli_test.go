@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/network"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk/testutil/network"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
 
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/slashing/types"
-	stakingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/slashing/types"
+	stakingtypes "github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // InitGenesis initialize default parameters

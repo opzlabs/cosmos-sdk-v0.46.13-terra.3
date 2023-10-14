@@ -3,10 +3,10 @@ package orm
 import (
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/gaskv"
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/store"
+	"github.com/opzlabs/cosmos-sdk/store/gaskv"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

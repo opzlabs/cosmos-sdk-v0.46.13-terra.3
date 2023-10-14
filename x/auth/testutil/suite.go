@@ -5,14 +5,14 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	kmultisig "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/multisig"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types/multisig"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	signingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
+	"github.com/opzlabs/cosmos-sdk/client"
+	kmultisig "github.com/opzlabs/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/types/multisig"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	signingtypes "github.com/opzlabs/cosmos-sdk/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk/x/auth/signing"
 )
 
 // TxConfigTestSuite provides a test suite that can be used to test that a TxConfig implementation is correct.

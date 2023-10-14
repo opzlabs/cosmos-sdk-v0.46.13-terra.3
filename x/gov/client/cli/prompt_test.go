@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/client/cli"
+	"github.com/opzlabs/cosmos-sdk/x/gov/client/cli"
 )
 
 type st struct {
@@ -25,7 +25,7 @@ type st struct {
 }
 
 // Tests that we successfully report overflows in parsing ints
-// See https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/13346
+// See https://github.com/opzlabs/cosmos-sdk/issues/13346
 func TestPromptIntegerOverflow(t *testing.T) {
 	// Intentionally sending values out of the range of int.
 	intOverflowers := []string{

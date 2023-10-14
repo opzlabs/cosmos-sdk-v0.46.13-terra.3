@@ -6,12 +6,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	clitestutil "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/cli"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/network"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/client/cli"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	clitestutil "github.com/opzlabs/cosmos-sdk/testutil/cli"
+	"github.com/opzlabs/cosmos-sdk/testutil/network"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/client/cli"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 )
 
 func NewIntegrationTestSuite(cfg network.Config) *IntegrationTestSuite {

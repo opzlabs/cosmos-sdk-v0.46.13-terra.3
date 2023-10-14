@@ -7,12 +7,12 @@ import (
 	"github.com/spf13/cobra"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/server"
+	"github.com/opzlabs/cosmos-sdk/types/module"
 )
 
-const chainUpgradeGuide = "https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/main/UPGRADING.md"
+const chainUpgradeGuide = "https://github.com/opzlabs/cosmos-sdk/blob/main/UPGRADING.md"
 
 // ValidateGenesisCmd takes a genesis file, and makes sure that it is valid.
 func ValidateGenesisCmd(mbm module.BasicManager) *cobra.Command {

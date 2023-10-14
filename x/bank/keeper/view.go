@@ -6,12 +6,12 @@ import (
 	"cosmossdk.io/math"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 var _ ViewKeeper = (*BaseViewKeeper)(nil)
@@ -145,7 +145,7 @@ func (k BaseViewKeeper) IterateAllBalances(ctx sdk.Context, cb func(sdk.AccAddre
 		if err != nil {
 			k.Logger(ctx).With("key", iterator.Key(), "err", err).Error("failed to get address from balances store")
 			// TODO: revisit, for now, panic here to keep same behavior as in 0.42
-			// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/7409
+			// ref: https://github.com/opzlabs/cosmos-sdk/issues/7409
 			panic(err)
 		}
 

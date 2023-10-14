@@ -1,20 +1,20 @@
 package vesting_test
 
 import (
-	stakingkeeper "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/keeper"
+	stakingkeeper "github.com/opzlabs/cosmos-sdk/x/staking/keeper"
 	"testing"
 	"time"
 
 	"github.com/stretchr/testify/suite"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
-	stakingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	stakingtypes "github.com/opzlabs/cosmos-sdk/x/staking/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/vesting"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/vesting/types"
+	"github.com/opzlabs/cosmos-sdk/x/auth/vesting"
+	"github.com/opzlabs/cosmos-sdk/x/auth/vesting/types"
 )
 
 type HandlerTestSuite struct {

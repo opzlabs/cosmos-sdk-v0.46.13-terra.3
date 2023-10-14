@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	paramtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	paramtypes "github.com/opzlabs/cosmos-sdk/x/params/types"
 )
 
 // ParamStoreKeyConstantFee is the key for constant fee parameter

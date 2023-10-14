@@ -6,8 +6,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/unknownproto"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
+	"github.com/opzlabs/cosmos-sdk/codec/unknownproto"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
 )
 
 var n1BBlob []byte

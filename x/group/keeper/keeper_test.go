@@ -13,15 +13,15 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
-	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/internal/math"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/module"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/group/internal/math"
+	"github.com/opzlabs/cosmos-sdk/x/group/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/group/module"
 )
 
 var EventProposalPruned = "cosmos.group.v1.EventProposalPruned"
@@ -91,7 +91,7 @@ func TestKeeperTestSuite(t *testing.T) {
 }
 
 // Testing a deadlock issue when querying group members
-// https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/12111
+// https://github.com/opzlabs/cosmos-sdk/issues/12111
 func (s *TestSuite) TestCreateGroupWithLotsOfMembers() {
 	for i := 50; i < 70; i++ {
 		membersResp := s.createGroupAndGetMembers(i)

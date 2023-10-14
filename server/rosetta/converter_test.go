@@ -7,21 +7,21 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	authsigning "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
+	authsigning "github.com/opzlabs/cosmos-sdk/x/auth/signing"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
 
 	rosettatypes "github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta"
-	crgerrs "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta/lib/errors"
+	"github.com/opzlabs/cosmos-sdk/server/rosetta"
+	crgerrs "github.com/opzlabs/cosmos-sdk/server/rosetta/lib/errors"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	authtx "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/tx"
-	bank "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	authtx "github.com/opzlabs/cosmos-sdk/x/auth/tx"
+	bank "github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 type ConverterTestSuite struct {

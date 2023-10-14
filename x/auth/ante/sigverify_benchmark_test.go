@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256r1"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256r1"
 )
 
 // This benchmark is used to asses the ante.Secp256k1ToR1GasFactor value

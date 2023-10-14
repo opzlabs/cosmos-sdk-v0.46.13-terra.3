@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/rest"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/authz"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/authz/client/cli"
-	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/testutil/rest"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/authz"
+	"github.com/opzlabs/cosmos-sdk/x/authz/client/cli"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestQueryGrantGRPC() {
@@ -209,7 +209,7 @@ func (s *IntegrationTestSuite) TestQueryGranterGrantsGRPC() {
 				var authorizations authz.QueryGranterGrantsResponse
 				err := val.ClientCtx.Codec.UnmarshalJSON(resp, &authorizations)
 				require.NoError(err)
-				// FIXME: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/10965
+				// FIXME: https://github.com/opzlabs/cosmos-sdk/issues/10965
 				require.Len(authorizations.Grants, tc.numItems)
 			}
 		})
@@ -261,7 +261,7 @@ func (s *IntegrationTestSuite) TestQueryGranteeGrantsGRPC() {
 				var authorizations authz.QueryGranteeGrantsResponse
 				err := val.ClientCtx.Codec.UnmarshalJSON(resp, &authorizations)
 				require.NoError(err)
-				// FIXME: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/10965
+				// FIXME: https://github.com/opzlabs/cosmos-sdk/issues/10965
 				require.Len(authorizations.Grants, tc.numItems)
 			}
 		})

@@ -11,16 +11,16 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmos "github.com/tendermint/tendermint/libs/os"
 
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
-	xp "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/exported"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	xp "github.com/opzlabs/cosmos-sdk/x/upgrade/exported"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 )
 
 // Deprecated: UpgradeInfoFileName file to store upgrade information

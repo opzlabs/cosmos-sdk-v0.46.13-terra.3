@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	svrcmd "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/cmd"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/simd/cmd"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil/client/cli"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	svrcmd "github.com/opzlabs/cosmos-sdk/server/cmd"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/simapp/simd/cmd"
+	"github.com/opzlabs/cosmos-sdk/x/genutil/client/cli"
 )
 
 func TestInitCmd(t *testing.T) {

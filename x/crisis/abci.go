@@ -3,10 +3,10 @@ package crisis
 import (
 	"time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/telemetry"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/crisis/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/crisis/types"
+	"github.com/opzlabs/cosmos-sdk/telemetry"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/crisis/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/crisis/types"
 )
 
 // check all registered invariants

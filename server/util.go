@@ -25,15 +25,15 @@ import (
 	tmlog "github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/config"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots"
-	snapshottypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/server/config"
+	"github.com/opzlabs/cosmos-sdk/server/types"
+	"github.com/opzlabs/cosmos-sdk/snapshots"
+	snapshottypes "github.com/opzlabs/cosmos-sdk/snapshots/types"
+	"github.com/opzlabs/cosmos-sdk/store"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/version"
 )
 
 // DONTCOVER

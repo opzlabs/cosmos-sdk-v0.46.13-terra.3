@@ -10,12 +10,12 @@ import (
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/migrations/legacytx"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/client/utils"
-	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/opzlabs/cosmos-sdk/x/gov/client/utils"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
 )
 
 type TxSearchMock struct {

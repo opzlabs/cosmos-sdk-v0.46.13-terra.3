@@ -12,11 +12,11 @@ import (
 	"github.com/hashicorp/golang-lru/simplelru"
 	"sigs.k8s.io/yaml"
 
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/internal/conv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/address"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/bech32"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/internal/conv"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	"github.com/opzlabs/cosmos-sdk/types/bech32"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 const (
@@ -145,7 +145,7 @@ func AccAddressFromHexUnsafe(address string) (addr AccAddress, err error) {
 // according to the default address rules or a custom address verifier set by
 // GetConfig().SetAddressVerifier().
 // TODO make an issue to get rid of global Config
-// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/9690
+// ref: https://github.com/opzlabs/cosmos-sdk/issues/9690
 func VerifyAddressFormat(bz []byte) error {
 	verifier := GetConfig().GetAddressVerifier()
 	if verifier != nil {

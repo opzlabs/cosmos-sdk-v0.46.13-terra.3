@@ -2,8 +2,8 @@ package types
 
 import (
 	"cosmossdk.io/math"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	stakingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	stakingtypes "github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // BankKeeper defines the expected interface contract the vesting module requires

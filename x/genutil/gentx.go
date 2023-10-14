@@ -6,12 +6,12 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	bankexported "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/exported"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil/types"
-	stakingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	bankexported "github.com/opzlabs/cosmos-sdk/x/bank/exported"
+	"github.com/opzlabs/cosmos-sdk/x/genutil/types"
+	stakingtypes "github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // SetGenTxsInAppGenesisState - sets the genesis transactions in the app genesis state

@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/require"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/legacy"
-	cryptocodec "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/teststaking"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/codec/legacy"
+	cryptocodec "github.com/opzlabs/cosmos-sdk/crypto/codec"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/staking/teststaking"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 func TestValidatorTestEquivalent(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft/keeper"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
+	"github.com/opzlabs/cosmos-sdk/x/nft"
+	"github.com/opzlabs/cosmos-sdk/x/nft/keeper"
 )
 
 // NewDecodeStore returns a decoder function closure that umarshals the KVPair's

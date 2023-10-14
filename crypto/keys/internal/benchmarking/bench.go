@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/types"
 )
 
 // The code in this file is adapted from agl/ed25519.

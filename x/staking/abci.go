@@ -5,10 +5,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/telemetry"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/telemetry"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/staking/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // BeginBlocker will persist the current header and validator set as a historical entry

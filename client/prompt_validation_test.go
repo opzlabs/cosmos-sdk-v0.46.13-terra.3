@@ -3,7 +3,7 @@ package client_test
 import (
 	"testing"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk/client"
 	"github.com/stretchr/testify/require"
 )
 

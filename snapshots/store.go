@@ -14,9 +14,9 @@ import (
 	"github.com/gogo/protobuf/proto"
 	db "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots/types"
+	"github.com/opzlabs/cosmos-sdk/snapshots/types"
 
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 const (

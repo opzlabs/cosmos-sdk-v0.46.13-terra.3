@@ -4,11 +4,11 @@ import (
 	"cosmossdk.io/math"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
-	paramtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/mint/types"
+	paramtypes "github.com/opzlabs/cosmos-sdk/x/params/types"
 )
 
 // Keeper of the mint store

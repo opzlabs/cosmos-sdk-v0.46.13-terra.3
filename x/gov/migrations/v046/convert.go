@@ -3,12 +3,12 @@ package v046
 import (
 	"fmt"
 
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
-	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 // ConvertToLegacyProposal takes a new proposal and attempts to convert it to the
@@ -62,7 +62,7 @@ func ConvertToLegacyProposal(proposal v1.Proposal) (v1beta1.Proposal, error) {
 	}
 	// hack to fill up the content with the first message
 	// this is to support clients that have not yet (properly) use gov/v1 endpoints
-	// https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/14334
+	// https://github.com/opzlabs/cosmos-sdk/issues/14334
 	// VerifyBasic assures that we have at least one message.
 	legacyProposal.Content, err = codectypes.NewAnyWithValue(msgs[0])
 

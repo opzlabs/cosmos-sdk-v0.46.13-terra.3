@@ -6,7 +6,7 @@ package group
 import (
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	types "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	types "github.com/opzlabs/cosmos-sdk/codec/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"

@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
-	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/module"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/group/module"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

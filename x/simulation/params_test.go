@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
 )
 
 func TestParamChange(t *testing.T) {

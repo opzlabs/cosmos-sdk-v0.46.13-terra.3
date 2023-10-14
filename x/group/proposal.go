@@ -1,9 +1,9 @@
 package group
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx"
+	"github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/tx"
 )
 
 func (p *Proposal) GetMsgs() ([]sdk.Msg, error) {

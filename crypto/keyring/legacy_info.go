@@ -3,12 +3,12 @@ package keyring
 import (
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/legacy"
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/multisig"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/codec/legacy"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/hd"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // Deprecated: LegacyInfo is the publicly exposed information about a keypair

@@ -7,11 +7,11 @@ import (
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	clitestutil "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/cli"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/authz"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/authz/client/cli"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	clitestutil "github.com/opzlabs/cosmos-sdk/testutil/cli"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/authz"
+	"github.com/opzlabs/cosmos-sdk/x/authz/client/cli"
 )
 
 func (s *IntegrationTestSuite) TestQueryAuthorizations() {

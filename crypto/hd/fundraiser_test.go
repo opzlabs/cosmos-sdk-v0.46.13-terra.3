@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
+	"github.com/opzlabs/cosmos-sdk/crypto/hd"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
 )
 
 type addrData struct {

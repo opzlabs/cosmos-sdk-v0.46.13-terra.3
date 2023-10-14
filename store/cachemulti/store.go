@@ -6,10 +6,10 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/cachekv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/dbadapter"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/tracekv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	"github.com/opzlabs/cosmos-sdk/store/cachekv"
+	"github.com/opzlabs/cosmos-sdk/store/dbadapter"
+	"github.com/opzlabs/cosmos-sdk/store/tracekv"
+	"github.com/opzlabs/cosmos-sdk/store/types"
 )
 
 // storeNameCtxKey is the TraceContext metadata key that identifies

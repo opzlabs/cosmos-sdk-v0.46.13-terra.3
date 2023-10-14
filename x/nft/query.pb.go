@@ -6,7 +6,7 @@ package nft
 import (
 	context "context"
 	fmt "fmt"
-	query "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
+	query "github.com/opzlabs/cosmos-sdk/types/query"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"

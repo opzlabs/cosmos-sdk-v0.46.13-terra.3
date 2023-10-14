@@ -3,9 +3,9 @@ package signing
 import (
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk/types/tx/signing"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // SignModeHandlerMap is SignModeHandler that aggregates multiple SignModeHandler's into

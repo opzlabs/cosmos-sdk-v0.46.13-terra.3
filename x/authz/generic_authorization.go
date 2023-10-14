@@ -1,7 +1,7 @@
 package authz
 
 import (
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 var _ Authorization = &GenericAuthorization{}

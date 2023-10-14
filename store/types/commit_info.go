@@ -3,7 +3,7 @@ package types
 import (
 	tmcrypto "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
-	sdkmaps "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/internal/maps"
+	sdkmaps "github.com/opzlabs/cosmos-sdk/store/internal/maps"
 )
 
 // GetHash returns the GetHash from the CommitID.

@@ -163,10 +163,10 @@ replace (
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 	github.com/ChainSafe/go-schnorrkel => github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d
 	// dgrijalva/jwt-go is deprecated and doesn't receive security updates.
-	// TODO: remove it: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/13134
+	// TODO: remove it: https://github.com/opzlabs/cosmos-sdk/issues/13134
 	github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt/v4 v4.4.2
 	// Fix upstream GHSA-h395-qcrw-5vmq and GHSA-3vp4-m3rf-835h vulnerabilities.
-	// TODO Remove it: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/10409
+	// TODO Remove it: https://github.com/opzlabs/cosmos-sdk/issues/10409
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.9.0
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 	github.com/jhump/protoreflect => github.com/jhump/protoreflect v1.9.0
@@ -177,7 +177,7 @@ replace (
 )
 
 retract (
-	// revert fix https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/pull/16331
+	// revert fix https://github.com/opzlabs/cosmos-sdk/pull/16331
 	v0.46.12
 	// subject to a bug in the group module and gov module migration
 	[v0.46.5, v0.46.6]

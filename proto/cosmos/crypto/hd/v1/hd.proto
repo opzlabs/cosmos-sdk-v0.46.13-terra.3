@@ -4,7 +4,7 @@ package cosmos.crypto.hd.v1;
 
 import "gogoproto/gogo.proto";
 
-option go_package                      = "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd";
+option go_package                      = "github.com/opzlabs/cosmos-sdk/crypto/hd";
 option (gogoproto.goproto_getters_all) = false;
 
 // BIP44Params is used as path field in ledger item in Record.

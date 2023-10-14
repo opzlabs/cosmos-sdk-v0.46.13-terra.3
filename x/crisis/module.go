@@ -9,15 +9,15 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/telemetry"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/crisis/client/cli"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/crisis/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/crisis/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk/telemetry"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	"github.com/opzlabs/cosmos-sdk/x/crisis/client/cli"
+	"github.com/opzlabs/cosmos-sdk/x/crisis/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/crisis/types"
 )
 
 var (

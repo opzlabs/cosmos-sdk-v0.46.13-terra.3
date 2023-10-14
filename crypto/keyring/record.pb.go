@@ -5,8 +5,8 @@ package keyring
 
 import (
 	fmt "fmt"
-	types "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	hd "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd"
+	types "github.com/opzlabs/cosmos-sdk/codec/types"
+	hd "github.com/opzlabs/cosmos-sdk/crypto/hd"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"

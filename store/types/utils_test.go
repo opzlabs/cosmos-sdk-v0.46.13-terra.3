@@ -8,8 +8,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/rootmulti"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	"github.com/opzlabs/cosmos-sdk/store/rootmulti"
+	sdk "github.com/opzlabs/cosmos-sdk/store/types"
 )
 
 func initTestStores(t *testing.T) (sdk.KVStore, sdk.KVStore) {

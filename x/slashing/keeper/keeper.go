@@ -3,13 +3,13 @@ package keeper
 import (
 	"fmt"
 
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/slashing/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/slashing/types"
 )
 
 // Keeper of the slashing store

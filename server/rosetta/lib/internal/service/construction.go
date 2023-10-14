@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 
 	"github.com/coinbase/rosetta-sdk-go/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta/lib/errors"
+	"github.com/opzlabs/cosmos-sdk/server/rosetta/lib/errors"
 )
 
 // ConstructionCombine Combine creates a network-specific transaction from an unsigned transaction

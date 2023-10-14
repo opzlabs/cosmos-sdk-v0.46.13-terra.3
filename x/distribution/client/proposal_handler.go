@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/distribution/client/cli"
-	govclient "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/client"
+	"github.com/opzlabs/cosmos-sdk/x/distribution/client/cli"
+	govclient "github.com/opzlabs/cosmos-sdk/x/gov/client"
 )
 
 // ProposalHandler is the community spend proposal handler.

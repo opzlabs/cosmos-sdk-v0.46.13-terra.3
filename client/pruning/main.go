@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	pruningtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/pruning/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
-	servertypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/rootmulti"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	pruningtypes "github.com/opzlabs/cosmos-sdk/pruning/types"
+	"github.com/opzlabs/cosmos-sdk/server"
+	servertypes "github.com/opzlabs/cosmos-sdk/server/types"
+	"github.com/opzlabs/cosmos-sdk/store/rootmulti"
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 )

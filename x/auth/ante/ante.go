@@ -1,11 +1,11 @@
 package ante
 
 import (
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
-	authsigning "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/tx/signing"
+	authsigning "github.com/opzlabs/cosmos-sdk/x/auth/signing"
+	"github.com/opzlabs/cosmos-sdk/x/auth/types"
 )
 
 // HandlerOptions are the options required for constructing a default SDK AnteHandler.

@@ -5,23 +5,23 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keyring"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/hd"
+	"github.com/opzlabs/cosmos-sdk/crypto/keyring"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	simcmd "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/simd/cmd"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil"
-	genutiltest "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil/client/testutil"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/server"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	simcmd "github.com/opzlabs/cosmos-sdk/simapp/simd/cmd"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	"github.com/opzlabs/cosmos-sdk/x/genutil"
+	genutiltest "github.com/opzlabs/cosmos-sdk/x/genutil/client/testutil"
 )
 
 var testMbm = module.NewBasicManager(genutil.AppModuleBasic{})

@@ -1,13 +1,13 @@
 package types
 
 import (
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/authz"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/authz"
 )
 
 // TODO: Revisit this once we have propoer gas fee framework.
-// Tracking issues https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/9054, https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/discussions/9072
+// Tracking issues https://github.com/opzlabs/cosmos-sdk/issues/9054, https://github.com/opzlabs/cosmos-sdk/discussions/9072
 const gasCostPerIteration = uint64(10)
 
 var _ authz.Authorization = &StakeAuthorization{}

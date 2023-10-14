@@ -1,9 +1,9 @@
 package v043
 
 import (
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	v042distribution "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/distribution/migrations/v042"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	v042distribution "github.com/opzlabs/cosmos-sdk/x/distribution/migrations/v042"
 )
 
 // MigrateStore performs in-place store migrations from v0.40 to v0.43. The

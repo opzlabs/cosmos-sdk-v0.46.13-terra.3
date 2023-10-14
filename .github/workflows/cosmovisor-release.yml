@@ -26,7 +26,7 @@ jobs:
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v3
         with:
-          # stick to version v0.179.0(https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/11125)
+          # stick to version v0.179.0(https://github.com/opzlabs/cosmos-sdk/issues/11125)
           version: v0.179.0
           args: release --rm-dist --skip-validate
           workdir: cosmovisor

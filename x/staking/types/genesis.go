@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
 )
 
 // NewGenesisState creates a new GenesisState instanc e

@@ -5,12 +5,12 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/rest"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	grpctypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/grpc"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	"github.com/opzlabs/cosmos-sdk/testutil/rest"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	grpctypes "github.com/opzlabs/cosmos-sdk/types/grpc"
+	"github.com/opzlabs/cosmos-sdk/types/query"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 func (s *IntegrationTestSuite) TestTotalSupplyGRPCHandler() {

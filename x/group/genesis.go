@@ -3,8 +3,8 @@ package group
 import (
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk/codec/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 // NewGenesisState creates a new genesis state with default values.

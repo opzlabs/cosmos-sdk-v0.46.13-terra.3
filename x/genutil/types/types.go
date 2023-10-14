@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
 )
 
 // DONTCOVER

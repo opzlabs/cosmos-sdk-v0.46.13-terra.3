@@ -2,8 +2,8 @@ package types // noalias
 
 import (
 	"cosmossdk.io/math"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/auth/types"
 )
 
 // StakingKeeper defines the expected staking keeper
@@ -16,7 +16,7 @@ type StakingKeeper interface {
 type AccountKeeper interface {
 	GetModuleAddress(name string) sdk.AccAddress
 
-	// TODO remove with genesis 2-phases refactor https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/2862
+	// TODO remove with genesis 2-phases refactor https://github.com/opzlabs/cosmos-sdk/issues/2862
 	SetModuleAccount(sdk.Context, types.ModuleAccountI)
 	GetModuleAccount(ctx sdk.Context, moduleName string) types.ModuleAccountI
 }

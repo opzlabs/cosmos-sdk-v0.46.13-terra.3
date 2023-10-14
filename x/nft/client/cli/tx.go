@@ -6,11 +6,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/tx"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/client/tx"
+	"github.com/opzlabs/cosmos-sdk/version"
+	"github.com/opzlabs/cosmos-sdk/x/nft"
 )
 
 // GetTxCmd returns the transaction commands for this module

@@ -10,7 +10,7 @@ BINDIR ?= $(GOPATH)/bin
 BUILDDIR ?= $(CURDIR)/build
 SIMAPP = ./simapp
 MOCKS_DIR = $(CURDIR)/tests/mocks
-HTTPS_GIT := https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3.git
+HTTPS_GIT := https://github.com/opzlabs/cosmos-sdk.git
 DOCKER := $(shell which docker)
 DOCKER_BUF := $(DOCKER) run --rm -v $(CURDIR):/workspace --workdir /workspace bufbuild/buf:1.0.0-rc8
 PROJECT_NAME = $(shell git remote get-url origin | xargs basename -s .git)
@@ -32,7 +32,7 @@ ifeq ($(LEDGER_ENABLED),true)
   else
     UNAME_S = $(shell uname -s)
     ifeq ($(UNAME_S),OpenBSD)
-      $(warning OpenBSD detected, disabling ledger support (https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/1988))
+      $(warning OpenBSD detected, disabling ledger support (https://github.com/opzlabs/cosmos-sdk/issues/1988))
     else
       GCC = $(shell command -v gcc 2> /dev/null)
       ifeq ($(GCC),)
@@ -55,11 +55,11 @@ build_tags_comma_sep := $(subst $(whitespace),$(comma),$(build_tags))
 
 # process linker flags
 
-ldflags = -X github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version.Name=sim \
-		  -X github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version.AppName=simd \
-		  -X github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version.Version=$(VERSION) \
-		  -X github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version.Commit=$(COMMIT) \
-		  -X "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version.BuildTags=$(build_tags_comma_sep)" \
+ldflags = -X github.com/opzlabs/cosmos-sdk/version.Name=sim \
+		  -X github.com/opzlabs/cosmos-sdk/version.AppName=simd \
+		  -X github.com/opzlabs/cosmos-sdk/version.Version=$(VERSION) \
+		  -X github.com/opzlabs/cosmos-sdk/version.Commit=$(COMMIT) \
+		  -X "github.com/opzlabs/cosmos-sdk/version.BuildTags=$(build_tags_comma_sep)" \
 		  -X github.com/tendermint/tendermint/version.TMCoreSemVer=$(TMVERSION)
 
 # DB backend selection
@@ -175,7 +175,7 @@ update-swagger-docs: statik
 .PHONY: update-swagger-docs
 
 godocs:
-	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/github.com/opzlabs/cosmos-sdk/types"
 	godoc -http=:6060
 
 # This builds a docs site for each branch/tag in `./docs/versions`
@@ -357,12 +357,12 @@ format:
 DEVDOC_SAVE = docker commit `docker ps -a -n 1 -q` devdoc:local
 
 devdoc-init:
-	$(DOCKER) run -it -v "$(CURDIR):/go/src/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3" -w "/go/src/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3" tendermint/devdoc echo
+	$(DOCKER) run -it -v "$(CURDIR):/go/src/github.com/opzlabs/cosmos-sdk" -w "/go/src/github.com/opzlabs/cosmos-sdk" tendermint/devdoc echo
 	# TODO make this safer
 	$(call DEVDOC_SAVE)
 
 devdoc:
-	$(DOCKER) run -it -v "$(CURDIR):/go/src/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3" -w "/go/src/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3" devdoc:local bash
+	$(DOCKER) run -it -v "$(CURDIR):/go/src/github.com/opzlabs/cosmos-sdk" -w "/go/src/github.com/opzlabs/cosmos-sdk" devdoc:local bash
 
 devdoc-save:
 	# TODO make this safer

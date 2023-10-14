@@ -10,16 +10,16 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	simappparams "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/params"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/simulation"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types"
-	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
-	minttypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	simappparams "github.com/opzlabs/cosmos-sdk/simapp/params"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	"github.com/opzlabs/cosmos-sdk/x/gov/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
+	minttypes "github.com/opzlabs/cosmos-sdk/x/mint/types"
 )
 
 type MockWeightedProposalContent struct {

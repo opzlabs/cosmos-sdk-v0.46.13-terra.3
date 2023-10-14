@@ -13,14 +13,14 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
-	govtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	govtypes "github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 )
 
 type TestSuite struct {

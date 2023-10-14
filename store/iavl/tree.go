@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/cosmos/iavl"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	"github.com/opzlabs/cosmos-sdk/store/types"
 )
 
 var (

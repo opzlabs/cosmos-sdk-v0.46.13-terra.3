@@ -6,8 +6,8 @@ import (
 	gogogrpc "github.com/gogo/protobuf/grpc"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // RegisterNodeService registers the node gRPC service on the provided gRPC router.

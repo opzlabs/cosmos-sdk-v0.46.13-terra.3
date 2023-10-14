@@ -3,8 +3,8 @@ package store
 import (
 	"bytes"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkkv "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkkv "github.com/opzlabs/cosmos-sdk/types/kv"
 )
 
 // First gets the first item.

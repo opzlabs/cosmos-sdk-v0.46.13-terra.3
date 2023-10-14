@@ -3,7 +3,7 @@ package cosmos.base.node.v1beta1;
 
 import "google/api/annotations.proto";
 
-option go_package = "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/grpc/node";
+option go_package = "github.com/opzlabs/cosmos-sdk/client/grpc/node";
 
 // Service defines the gRPC querier service for node related queries.
 service Service {

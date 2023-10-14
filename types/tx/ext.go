@@ -1,7 +1,7 @@
 package tx
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	"github.com/opzlabs/cosmos-sdk/codec/types"
 )
 
 // TxExtensionOptionI defines the interface for tx extension options

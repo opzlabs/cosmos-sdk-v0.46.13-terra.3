@@ -8,7 +8,7 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmlog "github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
+	"github.com/opzlabs/cosmos-sdk/server"
 )
 
 // SetupApp returns an application as well as a clean-up function

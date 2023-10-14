@@ -10,14 +10,14 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/teststaking"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	"github.com/opzlabs/cosmos-sdk/x/staking"
+	"github.com/opzlabs/cosmos-sdk/x/staking/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/staking/teststaking"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 func newMonikerValidator(t testing.TB, operator sdk.ValAddress, pubKey cryptotypes.PubKey, moniker string) types.Validator {

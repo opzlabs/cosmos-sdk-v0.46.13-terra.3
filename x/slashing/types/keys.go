@@ -3,9 +3,9 @@ package types
 import (
 	"encoding/binary"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/address"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
 )
 
 const (

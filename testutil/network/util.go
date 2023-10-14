@@ -15,13 +15,13 @@ import (
 	"github.com/tendermint/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/api"
-	servergrpc "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/grpc"
-	srvtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/types"
-	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
-	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil"
-	genutiltypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil/types"
+	"github.com/opzlabs/cosmos-sdk/server/api"
+	servergrpc "github.com/opzlabs/cosmos-sdk/server/grpc"
+	srvtypes "github.com/opzlabs/cosmos-sdk/server/types"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/x/genutil"
+	genutiltypes "github.com/opzlabs/cosmos-sdk/x/genutil/types"
 )
 
 func startInProcess(cfg Config, val *Validator) error {

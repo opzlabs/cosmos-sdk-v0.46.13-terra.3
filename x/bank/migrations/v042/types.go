@@ -2,11 +2,11 @@ package v042
 
 import (
 	"github.com/golang/protobuf/proto"
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
-	v042auth "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/migrations/v042"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
+	v042auth "github.com/opzlabs/cosmos-sdk/x/auth/migrations/v042"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 const (
@@ -49,7 +49,7 @@ func AddressFromBalancesStore(key []byte) sdk.AccAddress {
 // SupplyI defines an inflationary supply interface for modules that handle
 // token supply.
 // It is copy-pasted from:
-// https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/v0.42.3/x/bank/exported/exported.go
+// https://github.com/opzlabs/cosmos-sdk/blob/v0.42.3/x/bank/exported/exported.go
 // where we stripped off the unnecessary methods.
 //
 // It is used in the migration script, because we save this interface as an Any

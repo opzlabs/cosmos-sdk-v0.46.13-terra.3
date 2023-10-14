@@ -1,8 +1,8 @@
 package snapshot
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
-	servertypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/types"
+	"github.com/opzlabs/cosmos-sdk/server"
+	servertypes "github.com/opzlabs/cosmos-sdk/server/types"
 	"github.com/spf13/cobra"
 )
 

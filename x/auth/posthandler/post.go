@@ -1,7 +1,7 @@
 package posthandler
 
 import (
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // HandlerOptions are the options required for constructing a default SDK PostHandler.

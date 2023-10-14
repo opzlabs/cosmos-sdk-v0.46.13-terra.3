@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
+	"github.com/opzlabs/cosmos-sdk/x/mint/types"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

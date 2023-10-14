@@ -10,15 +10,15 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
-	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
-	distributiontypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/distribution/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types"
-	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
-	stakingtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	distributiontypes "github.com/opzlabs/cosmos-sdk/x/distribution/types"
+	"github.com/opzlabs/cosmos-sdk/x/gov"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
+	stakingtypes "github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 func TestImportExportQueues(t *testing.T) {

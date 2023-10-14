@@ -5,7 +5,7 @@ package multisig
 
 import (
 	fmt "fmt"
-	types "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
+	types "github.com/opzlabs/cosmos-sdk/codec/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"

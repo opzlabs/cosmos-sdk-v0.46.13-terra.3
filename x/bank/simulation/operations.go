@@ -3,17 +3,17 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/helpers"
-	simappparams "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/params"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
-	distributiontypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/distribution/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/simulation"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/opzlabs/cosmos-sdk/simapp/params"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/bank/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/bank/types"
+	distributiontypes "github.com/opzlabs/cosmos-sdk/x/distribution/types"
+	"github.com/opzlabs/cosmos-sdk/x/simulation"
 )
 
 // Simulation operation weights constants

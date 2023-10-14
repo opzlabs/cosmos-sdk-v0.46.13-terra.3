@@ -5,7 +5,7 @@ import "google/protobuf/any.proto";
 import "gogoproto/gogo.proto";
 import "cosmos/auth/v1beta1/auth.proto";
 
-option go_package = "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types";
+option go_package = "github.com/opzlabs/cosmos-sdk/x/auth/types";
 
 // GenesisState defines the auth module's genesis state.
 message GenesisState {

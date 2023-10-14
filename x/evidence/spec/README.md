@@ -20,7 +20,7 @@ parent:
 
 ## Abstract
 
-`x/evidence` is an implementation of a Cosmos SDK module, per [ADR 009](https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/main/docs/architecture/adr-009-evidence-module.md),
+`x/evidence` is an implementation of a Cosmos SDK module, per [ADR 009](https://github.com/opzlabs/cosmos-sdk/blob/main/docs/architecture/adr-009-evidence-module.md),
 that allows for the submission and handling of arbitrary evidence of misbehavior such
 as equivocation and counterfactual signing.
 

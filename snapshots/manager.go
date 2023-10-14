@@ -13,8 +13,8 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk/snapshots/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 // Manager manages snapshot and restore operations for an app, making sure only a single

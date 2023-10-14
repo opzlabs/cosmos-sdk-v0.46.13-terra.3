@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/x/group"
 )
 
 func (s *TestSuite) TestTally() {

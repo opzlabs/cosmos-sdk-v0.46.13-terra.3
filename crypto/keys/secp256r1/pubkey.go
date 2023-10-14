@@ -4,8 +4,8 @@ import (
 	"github.com/gogo/protobuf/proto"
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 
-	ecdsa "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/internal/ecdsa"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	ecdsa "github.com/opzlabs/cosmos-sdk/crypto/keys/internal/ecdsa"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
 )
 
 // String implements proto.Message interface.

@@ -7,21 +7,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
-	minttypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/mint/types"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	minttypes "github.com/opzlabs/cosmos-sdk/x/mint/types"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/ed25519"
-	kmultisig "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/multisig"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/ante"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/ed25519"
+	kmultisig "github.com/opzlabs/cosmos-sdk/crypto/keys/multisig"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk/x/auth/ante"
+	"github.com/opzlabs/cosmos-sdk/x/auth/types"
 )
 
 // Test that simulate transaction accurately estimates gas cost
@@ -904,7 +904,7 @@ func generatePubKeysAndSignatures(n int, msg []byte, _ bool) (pubkeys []cryptoty
 		var privkey cryptotypes.PrivKey = secp256k1.GenPrivKey()
 
 		// TODO: also generate ed25519 keys as below when ed25519 keys are
-		//  actually supported, https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/4789
+		//  actually supported, https://github.com/opzlabs/cosmos-sdk/issues/4789
 		// for now this fails:
 		//if rand.Int63()%2 == 0 {
 		//	privkey = ed25519.GenPrivKey()

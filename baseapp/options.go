@@ -6,12 +6,12 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	pruningtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/pruning/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots"
-	snapshottypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/codec/types"
+	pruningtypes "github.com/opzlabs/cosmos-sdk/pruning/types"
+	"github.com/opzlabs/cosmos-sdk/snapshots"
+	snapshottypes "github.com/opzlabs/cosmos-sdk/snapshots/types"
+	"github.com/opzlabs/cosmos-sdk/store"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // File for storing in-package BaseApp optional functions,
@@ -251,7 +251,7 @@ func (app *BaseApp) SetStreamingService(s StreamingService) {
 
 // SetQueryMultiStore set a alternative MultiStore implementation to support grpc query service.
 //
-// Ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/13317
+// Ref: https://github.com/opzlabs/cosmos-sdk/issues/13317
 func (app *BaseApp) SetQueryMultiStore(ms sdk.MultiStore) {
 	if app.sealed {
 		panic("SetQueryMultiStore() on sealed BaseApp")

@@ -10,13 +10,13 @@ import (
 
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	cdctypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	bankexported "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/exported"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil"
-	gtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/genutil/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cdctypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	"github.com/opzlabs/cosmos-sdk/server"
+	"github.com/opzlabs/cosmos-sdk/types"
+	bankexported "github.com/opzlabs/cosmos-sdk/x/bank/exported"
+	"github.com/opzlabs/cosmos-sdk/x/genutil"
+	gtypes "github.com/opzlabs/cosmos-sdk/x/genutil/types"
 )
 
 type doNothingUnmarshalJSON struct {
@@ -35,7 +35,7 @@ func (dni *doNothingIterator) IterateGenesisBalances(_ codec.JSONCodec, _ map[st
 }
 
 // Ensures that CollectTx correctly traverses directories and won't error out on encountering
-// a directory during traversal of the first level. See issue https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/6788.
+// a directory during traversal of the first level. See issue https://github.com/opzlabs/cosmos-sdk/issues/6788.
 func TestCollectTxsHandlesDirectories(t *testing.T) {
 	testDir, err := os.MkdirTemp(os.TempDir(), "testCollectTxs")
 	if err != nil {

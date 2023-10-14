@@ -7,21 +7,21 @@ import (
 
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp/helpers"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/ante"
-	authsign "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/signing"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/tx"
-	authtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/testutil"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/feegrant"
+	"github.com/opzlabs/cosmos-sdk/simapp/helpers"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/simulation"
+	"github.com/opzlabs/cosmos-sdk/types/tx/signing"
+	"github.com/opzlabs/cosmos-sdk/x/auth/ante"
+	authsign "github.com/opzlabs/cosmos-sdk/x/auth/signing"
+	"github.com/opzlabs/cosmos-sdk/x/auth/tx"
+	authtypes "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	"github.com/opzlabs/cosmos-sdk/x/bank/testutil"
+	"github.com/opzlabs/cosmos-sdk/x/feegrant"
 )
 
 func (suite *AnteTestSuite) TestDeductFeesNoDelegation() {

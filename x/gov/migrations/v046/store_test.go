@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	v042gov "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/migrations/v042"
-	v046gov "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/migrations/v046"
-	v1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
-	upgradetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	v042gov "github.com/opzlabs/cosmos-sdk/x/gov/migrations/v042"
+	v046gov "github.com/opzlabs/cosmos-sdk/x/gov/migrations/v046"
+	v1 "github.com/opzlabs/cosmos-sdk/x/gov/types/v1"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
+	upgradetypes "github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 )
 
 func TestMigrateStore(t *testing.T) {

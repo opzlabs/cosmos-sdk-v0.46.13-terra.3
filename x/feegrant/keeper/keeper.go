@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"time"
 
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/ante"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/feegrant"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/auth/ante"
+	"github.com/opzlabs/cosmos-sdk/x/feegrant"
 )
 
 // Keeper manages state of all fee grants, as well as calculating approval.

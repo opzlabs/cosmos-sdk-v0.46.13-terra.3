@@ -4,7 +4,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // Evidence defines the contract which concrete evidence types of misbehavior

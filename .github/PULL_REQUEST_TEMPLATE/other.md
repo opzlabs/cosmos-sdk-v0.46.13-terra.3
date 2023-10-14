@@ -15,7 +15,7 @@ please add links to any relevant follow up issues.*
 I have...
 
 - [ ] included the correct [type prefix](https://github.com/commitizen/conventional-commit-types/blob/v3.0.0/index.json) in the PR title
-- [ ] targeted the correct branch (see [PR Targeting](https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/main/CONTRIBUTING.md#pr-targeting))
+- [ ] targeted the correct branch (see [PR Targeting](https://github.com/opzlabs/cosmos-sdk/blob/main/CONTRIBUTING.md#pr-targeting))
 - [ ] provided a link to the relevant issue or specification
 - [ ] reviewed "Files changed" and left comments if necessary
 - [ ] confirmed all CI checks have passed

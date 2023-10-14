@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/cachekv"
+	"github.com/opzlabs/cosmos-sdk/store/cachekv"
 
 	"github.com/cosmos/iavl"
 	"github.com/stretchr/testify/require"
@@ -13,8 +13,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
+	"github.com/opzlabs/cosmos-sdk/store/types"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
 )
 
 var (

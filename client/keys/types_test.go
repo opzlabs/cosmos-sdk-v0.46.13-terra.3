@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/keys"
+	"github.com/opzlabs/cosmos-sdk/client/keys"
 )
 
 func TestConstructors(t *testing.T) {

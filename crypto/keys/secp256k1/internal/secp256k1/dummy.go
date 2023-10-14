@@ -15,7 +15,7 @@
 package secp256k1
 
 import (
-	_ "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1/internal/secp256k1/libsecp256k1/include"
-	_ "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1/internal/secp256k1/libsecp256k1/src"
-	_ "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/secp256k1/internal/secp256k1/libsecp256k1/src/modules/recovery"
+	_ "github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1/internal/secp256k1/libsecp256k1/include"
+	_ "github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1/internal/secp256k1/libsecp256k1/src"
+	_ "github.com/opzlabs/cosmos-sdk/crypto/keys/secp256k1/internal/secp256k1/libsecp256k1/src/modules/recovery"
 )

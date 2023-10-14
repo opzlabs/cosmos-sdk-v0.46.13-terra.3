@@ -3,7 +3,7 @@ package simapp
 import (
 	"encoding/json"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
+	"github.com/opzlabs/cosmos-sdk/codec"
 )
 
 // GenesisState of the blockchain is represented here as a map of raw json

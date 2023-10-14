@@ -8,11 +8,11 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/internal/conv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/cachekv/internal"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/tracekv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
+	"github.com/opzlabs/cosmos-sdk/internal/conv"
+	"github.com/opzlabs/cosmos-sdk/store/cachekv/internal"
+	"github.com/opzlabs/cosmos-sdk/store/tracekv"
+	"github.com/opzlabs/cosmos-sdk/store/types"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
 )
 
 // cValue represents a cached value.

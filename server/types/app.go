@@ -12,11 +12,11 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/api"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/config"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/snapshots"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/server/api"
+	"github.com/opzlabs/cosmos-sdk/server/config"
+	"github.com/opzlabs/cosmos-sdk/snapshots"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // ServerStartTime defines the time duration that the server need to stay running after startup

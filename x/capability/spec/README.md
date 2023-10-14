@@ -9,7 +9,7 @@ parent:
 
 ## Overview
 
-`x/capability` is an implementation of a Cosmos SDK module, per [ADR 003](https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/main/docs/architecture/adr-003-dynamic-capability-store.md),
+`x/capability` is an implementation of a Cosmos SDK module, per [ADR 003](https://github.com/opzlabs/cosmos-sdk/blob/main/docs/architecture/adr-003-dynamic-capability-store.md),
 that allows for provisioning, tracking, and authenticating multi-owner capabilities
 at runtime.
 

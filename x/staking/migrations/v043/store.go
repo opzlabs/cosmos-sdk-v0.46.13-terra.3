@@ -1,14 +1,14 @@
 package v043
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/prefix"
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/address"
-	v042auth "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/migrations/v042"
-	v043distribution "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/distribution/migrations/v043"
-	v040staking "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/migrations/v042"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	"github.com/opzlabs/cosmos-sdk/store/prefix"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	v042auth "github.com/opzlabs/cosmos-sdk/x/auth/migrations/v042"
+	v043distribution "github.com/opzlabs/cosmos-sdk/x/distribution/migrations/v043"
+	v040staking "github.com/opzlabs/cosmos-sdk/x/staking/migrations/v042"
+	"github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // migratePrefixAddressAddressAddress is a helper function that migrates all keys of format:

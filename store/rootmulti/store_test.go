@@ -11,15 +11,15 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	codecTypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	pruningtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/pruning/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/cachemulti"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/iavl"
-	sdkmaps "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/internal/maps"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/listenkv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codecTypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	pruningtypes "github.com/opzlabs/cosmos-sdk/pruning/types"
+	"github.com/opzlabs/cosmos-sdk/store/cachemulti"
+	"github.com/opzlabs/cosmos-sdk/store/iavl"
+	sdkmaps "github.com/opzlabs/cosmos-sdk/store/internal/maps"
+	"github.com/opzlabs/cosmos-sdk/store/listenkv"
+	"github.com/opzlabs/cosmos-sdk/store/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 func TestStoreType(t *testing.T) {

@@ -9,18 +9,18 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdkclient "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	cdctypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
-	simtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/simulation"
+	sdkclient "github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	cdctypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	simtypes "github.com/opzlabs/cosmos-sdk/types/simulation"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft/client/cli"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft/simulation"
+	"github.com/opzlabs/cosmos-sdk/x/nft"
+	"github.com/opzlabs/cosmos-sdk/x/nft/client/cli"
+	"github.com/opzlabs/cosmos-sdk/x/nft/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/nft/simulation"
 )
 
 var (

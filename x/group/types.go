@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/internal/math"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/internal/orm"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/x/group/errors"
+	"github.com/opzlabs/cosmos-sdk/x/group/internal/math"
+	"github.com/opzlabs/cosmos-sdk/x/group/internal/orm"
 )
 
 // DecisionPolicyResult is the result of whether a proposal passes or not a

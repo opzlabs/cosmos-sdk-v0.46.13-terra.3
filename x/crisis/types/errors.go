@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 // x/crisis module sentinel errors

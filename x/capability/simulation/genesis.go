@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/module"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/capability/types"
+	"github.com/opzlabs/cosmos-sdk/types/module"
+	"github.com/opzlabs/cosmos-sdk/x/capability/types"
 )
 
 // Simulation parameter constants

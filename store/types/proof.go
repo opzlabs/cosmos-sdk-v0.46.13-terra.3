@@ -7,9 +7,9 @@ import (
 	"github.com/tendermint/tendermint/crypto/merkle"
 	tmmerkle "github.com/tendermint/tendermint/proto/tendermint/crypto"
 
-	sdkmaps "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/internal/maps"
-	sdkproofs "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/internal/proofs"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	sdkmaps "github.com/opzlabs/cosmos-sdk/store/internal/maps"
+	sdkproofs "github.com/opzlabs/cosmos-sdk/store/internal/proofs"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 const (

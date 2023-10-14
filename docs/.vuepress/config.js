@@ -72,7 +72,7 @@ module.exports = {
             },
             {
               title: "SDK API Reference",
-              path: "https://pkg.go.dev/github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3"
+              path: "https://pkg.go.dev/github.com/opzlabs/cosmos-sdk"
             },
             {
               title: "REST API Spec",
@@ -180,11 +180,11 @@ module.exports = {
             {
               title: "Contributing to the docs",
               url:
-                "https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/blob/main/docs/DOCS_README.md"
+                "https://github.com/opzlabs/cosmos-sdk/blob/main/docs/DOCS_README.md"
             },
             {
               title: "Source code on GitHub",
-              url: "https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/"
+              url: "https://github.com/opzlabs/cosmos-sdk/"
             }
           ]
         }

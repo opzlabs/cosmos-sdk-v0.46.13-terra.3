@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/tx"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/crisis/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	"github.com/opzlabs/cosmos-sdk/client/tx"
+	"github.com/opzlabs/cosmos-sdk/x/crisis/types"
 )
 
 // NewTxCmd returns a root CLI command handler for all x/crisis transaction commands.

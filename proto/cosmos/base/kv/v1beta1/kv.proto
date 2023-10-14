@@ -3,7 +3,7 @@ package cosmos.base.kv.v1beta1;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv";
+option go_package = "github.com/opzlabs/cosmos-sdk/types/kv";
 
 // Pairs defines a repeated slice of Pair objects.
 message Pairs {

@@ -1,8 +1,8 @@
 package secp256r1
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/internal/ecdsa"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/internal/ecdsa"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
 )
 
 // GenPrivKey generates a new secp256r1 private key. It uses operating system randomness.

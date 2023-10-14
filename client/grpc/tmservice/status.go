@@ -5,7 +5,7 @@ import (
 
 	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
+	"github.com/opzlabs/cosmos-sdk/client"
 )
 
 func getNodeStatus(ctx context.Context, clientCtx client.Context) (*coretypes.ResultStatus, error) {

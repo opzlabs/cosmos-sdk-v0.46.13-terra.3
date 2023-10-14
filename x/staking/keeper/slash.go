@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"cosmossdk.io/math"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	types "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/staking/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	types "github.com/opzlabs/cosmos-sdk/x/staking/types"
 )
 
 // Slash a validator for an infraction committed at a known height
@@ -41,7 +41,7 @@ func (k Keeper) Slash(ctx sdk.Context, consAddr sdk.ConsAddress, infractionHeigh
 	slashAmountDec := sdk.NewDecFromInt(amount).Mul(slashFactor)
 	slashAmount := slashAmountDec.TruncateInt()
 
-	// ref https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/1348
+	// ref https://github.com/opzlabs/cosmos-sdk/issues/1348
 
 	validator, found := k.GetValidatorByConsAddr(ctx, consAddr)
 	if !found {

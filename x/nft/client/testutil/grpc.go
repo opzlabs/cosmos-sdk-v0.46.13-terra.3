@@ -3,8 +3,8 @@ package testutil
 import (
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/rest"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft"
+	"github.com/opzlabs/cosmos-sdk/testutil/rest"
+	"github.com/opzlabs/cosmos-sdk/x/nft"
 )
 
 func (s *IntegrationTestSuite) TestQueryBalanceGRPC() {

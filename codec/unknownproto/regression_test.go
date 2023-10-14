@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	"github.com/opzlabs/cosmos-sdk/simapp"
 )
 
 // Issue #7739: Catch parse errors resulting from unexpected EOF in
@@ -18,7 +18,7 @@ func TestBadBytesPassedIntoDecoder(t *testing.T) {
 	decoder := cfg.TxConfig.TxDecoder()
 	tx, err := decoder(data)
 
-	// TODO: When issue https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/7846
+	// TODO: When issue https://github.com/opzlabs/cosmos-sdk/issues/7846
 	// is addressed, we'll remove this .Contains check.
 	require.Contains(t, err.Error(), io.ErrUnexpectedEOF.Error())
 	require.Nil(t, tx)

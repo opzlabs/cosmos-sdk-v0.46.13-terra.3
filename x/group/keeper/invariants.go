@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math"
 
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/errors"
-	groupmath "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/internal/math"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/internal/orm"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/group/errors"
+	groupmath "github.com/opzlabs/cosmos-sdk/x/group/internal/math"
+	"github.com/opzlabs/cosmos-sdk/x/group/internal/orm"
 )
 
 const weightInvariant = "Group-TotalWeight"

@@ -1,6 +1,6 @@
 package keeper
 
-import "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types"
+import "github.com/opzlabs/cosmos-sdk/x/gov/types"
 
 // UnsafeSetHooks updates the gov keeper's hooks, overriding any potential
 // pre-existing hooks.

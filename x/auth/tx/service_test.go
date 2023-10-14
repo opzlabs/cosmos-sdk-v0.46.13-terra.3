@@ -12,27 +12,27 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/flags"
-	clienttx "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client/tx"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keyring"
-	kmultisig "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/multisig"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/network"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/rest"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/query"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/tx/signing"
-	authclient "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/client"
-	authtest "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/client/testutil"
-	authtx "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/tx"
-	bankcli "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/client/testutil"
-	banktypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/client/flags"
+	clienttx "github.com/opzlabs/cosmos-sdk/client/tx"
+	"github.com/opzlabs/cosmos-sdk/crypto/hd"
+	"github.com/opzlabs/cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/opzlabs/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	"github.com/opzlabs/cosmos-sdk/testutil/network"
+	"github.com/opzlabs/cosmos-sdk/testutil/rest"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/query"
+	"github.com/opzlabs/cosmos-sdk/types/tx"
+	"github.com/opzlabs/cosmos-sdk/types/tx/signing"
+	authclient "github.com/opzlabs/cosmos-sdk/x/auth/client"
+	authtest "github.com/opzlabs/cosmos-sdk/x/auth/client/testutil"
+	authtx "github.com/opzlabs/cosmos-sdk/x/auth/tx"
+	bankcli "github.com/opzlabs/cosmos-sdk/x/bank/client/testutil"
+	banktypes "github.com/opzlabs/cosmos-sdk/x/bank/types"
 )
 
 var bankMsgSendEventAction = fmt.Sprintf("message.action='%s'", sdk.MsgTypeURL(&banktypes.MsgSend{}))
@@ -351,8 +351,8 @@ func (s IntegrationTestSuite) TestGetTxEvents_GRPC() {
 				s.Require().Equal("foobar", grpcRes.Txs[0].Body.Memo)
 				s.Require().Equal(len(grpcRes.Txs), tc.expLen)
 				// Make sure fields are populated.
-				// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/8680
-				// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/8681
+				// ref: https://github.com/opzlabs/cosmos-sdk/issues/8680
+				// ref: https://github.com/opzlabs/cosmos-sdk/issues/8681
 				s.Require().NotEmpty(grpcRes.TxResponses[0].Timestamp)
 				s.Require().NotEmpty(grpcRes.TxResponses[0].RawLog)
 			}
@@ -502,8 +502,8 @@ func (s IntegrationTestSuite) TestGetTx_GRPCGateway() {
 				s.Require().NotZero(result.TxResponse.Height)
 
 				// Make sure fields are populated.
-				// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/8680
-				// ref: https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/8681
+				// ref: https://github.com/opzlabs/cosmos-sdk/issues/8680
+				// ref: https://github.com/opzlabs/cosmos-sdk/issues/8681
 				s.Require().NotEmpty(result.TxResponse.Timestamp)
 				s.Require().NotEmpty(result.TxResponse.RawLog)
 			}

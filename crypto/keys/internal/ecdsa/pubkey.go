@@ -9,8 +9,8 @@ import (
 
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/address"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk/types/address"
+	"github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 // signatureFromBytes function roughly copied from secp256k1_nocgo.go

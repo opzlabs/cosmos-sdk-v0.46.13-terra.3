@@ -2,7 +2,7 @@ package db
 
 import (
 	dbm "github.com/opzlabs/cosmos-db"
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
 )
 
 var _ = (*storetypes.Iterator)(nil)

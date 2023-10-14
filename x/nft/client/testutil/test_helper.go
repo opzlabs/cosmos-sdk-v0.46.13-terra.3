@@ -5,10 +5,10 @@ import (
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil"
-	clitestutil "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/cli"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/network"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/nft/client/cli"
+	"github.com/opzlabs/cosmos-sdk/testutil"
+	clitestutil "github.com/opzlabs/cosmos-sdk/testutil/cli"
+	"github.com/opzlabs/cosmos-sdk/testutil/network"
+	"github.com/opzlabs/cosmos-sdk/x/nft/client/cli"
 )
 
 func ExecSend(val *network.Validator, args []string) (testutil.BufferWriter, error) {

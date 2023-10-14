@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta/lib/errors"
-	crgtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta/lib/types"
+	"github.com/opzlabs/cosmos-sdk/server/rosetta/lib/errors"
+	crgtypes "github.com/opzlabs/cosmos-sdk/server/rosetta/lib/types"
 )
 
 // AccountBalance retrieves the account balance of an address

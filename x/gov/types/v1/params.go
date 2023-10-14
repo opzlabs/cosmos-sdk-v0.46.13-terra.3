@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	paramtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/params/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	paramtypes "github.com/opzlabs/cosmos-sdk/x/params/types"
 )
 
 // Default period for deposits & voting

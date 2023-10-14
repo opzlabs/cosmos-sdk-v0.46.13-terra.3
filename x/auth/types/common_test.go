@@ -1,7 +1,7 @@
 package types_test
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
+	"github.com/opzlabs/cosmos-sdk/simapp"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
 )
 
 var (

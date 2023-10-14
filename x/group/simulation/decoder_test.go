@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/simapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/testutil/testdata"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/kv"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/internal/orm"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/group/simulation"
+	"github.com/opzlabs/cosmos-sdk/simapp"
+	"github.com/opzlabs/cosmos-sdk/testutil/testdata"
+	"github.com/opzlabs/cosmos-sdk/types/kv"
+	"github.com/opzlabs/cosmos-sdk/x/group"
+	"github.com/opzlabs/cosmos-sdk/x/group/internal/orm"
+	"github.com/opzlabs/cosmos-sdk/x/group/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/group/simulation"
 )
 
 func TestDecodeStore(t *testing.T) {

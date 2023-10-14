@@ -1,7 +1,7 @@
 package v043
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
+	"github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 // migrateWeightedVotes migrates the ADR-037 weighted votes.

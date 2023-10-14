@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/version"
+	"github.com/opzlabs/cosmos-sdk/version"
 
 	abcitypes "github.com/tendermint/tendermint/abci/types"
 
@@ -21,14 +21,14 @@ import (
 	"github.com/tendermint/tendermint/rpc/client/http"
 	"google.golang.org/grpc"
 
-	crgerrs "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta/lib/errors"
-	crgtypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/server/rosetta/lib/types"
+	crgerrs "github.com/opzlabs/cosmos-sdk/server/rosetta/lib/errors"
+	crgtypes "github.com/opzlabs/cosmos-sdk/server/rosetta/lib/types"
 
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	grpctypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/grpc"
-	authtx "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/tx"
-	auth "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
-	bank "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/bank/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	grpctypes "github.com/opzlabs/cosmos-sdk/types/grpc"
+	authtx "github.com/opzlabs/cosmos-sdk/x/auth/tx"
+	auth "github.com/opzlabs/cosmos-sdk/x/auth/types"
+	bank "github.com/opzlabs/cosmos-sdk/x/bank/types"
 
 	tmrpc "github.com/tendermint/tendermint/rpc/client"
 )

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
 )
 
 type byter interface {

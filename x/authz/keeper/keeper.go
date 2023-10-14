@@ -9,19 +9,19 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/baseapp"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	codectypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	storetypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/store/types"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
-	authkeeper "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/keeper"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/authz"
+	"github.com/opzlabs/cosmos-sdk/baseapp"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	codectypes "github.com/opzlabs/cosmos-sdk/codec/types"
+	storetypes "github.com/opzlabs/cosmos-sdk/store/types"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
+	authkeeper "github.com/opzlabs/cosmos-sdk/x/auth/keeper"
+	"github.com/opzlabs/cosmos-sdk/x/authz"
 )
 
 // TODO: Revisit this once we have propoer gas fee framework.
-// Tracking issues https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/issues/9054,
-// https://github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/discussions/9072
+// Tracking issues https://github.com/opzlabs/cosmos-sdk/issues/9054,
+// https://github.com/opzlabs/cosmos-sdk/discussions/9072
 const gasCostPerIteration = uint64(20)
 
 type Keeper struct {

@@ -1,8 +1,8 @@
 package keyring
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/hd"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/hd"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
 )
 
 // Language is a language to create the BIP 39 mnemonic in.

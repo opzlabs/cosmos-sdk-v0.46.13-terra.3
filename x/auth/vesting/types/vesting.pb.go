@@ -5,9 +5,9 @@ package types
 
 import (
 	fmt "fmt"
-	github_com_cosmos_cosmos_sdk_types "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	types1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
-	types "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/auth/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/opzlabs/cosmos-sdk/types"
+	types1 "github.com/opzlabs/cosmos-sdk/types"
+	types "github.com/opzlabs/cosmos-sdk/x/auth/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -30,9 +30,9 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 // the necessary fields needed for any vesting account implementation.
 type BaseVestingAccount struct {
 	*types.BaseAccount `protobuf:"bytes,1,opt,name=base_account,json=baseAccount,proto3,embedded=base_account" json:"base_account,omitempty"`
-	OriginalVesting    github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=original_vesting,json=originalVesting,proto3,castrepeated=github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types.Coins" json:"original_vesting"`
-	DelegatedFree      github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,3,rep,name=delegated_free,json=delegatedFree,proto3,castrepeated=github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types.Coins" json:"delegated_free"`
-	DelegatedVesting   github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,4,rep,name=delegated_vesting,json=delegatedVesting,proto3,castrepeated=github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types.Coins" json:"delegated_vesting"`
+	OriginalVesting    github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=original_vesting,json=originalVesting,proto3,castrepeated=github.com/opzlabs/cosmos-sdk/types.Coins" json:"original_vesting"`
+	DelegatedFree      github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,3,rep,name=delegated_free,json=delegatedFree,proto3,castrepeated=github.com/opzlabs/cosmos-sdk/types.Coins" json:"delegated_free"`
+	DelegatedVesting   github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,4,rep,name=delegated_vesting,json=delegatedVesting,proto3,castrepeated=github.com/opzlabs/cosmos-sdk/types.Coins" json:"delegated_vesting"`
 	// Vesting end time, as unix timestamp (in seconds).
 	EndTime int64 `protobuf:"varint,5,opt,name=end_time,json=endTime,proto3" json:"end_time,omitempty"`
 }
@@ -152,7 +152,7 @@ var xxx_messageInfo_DelayedVestingAccount proto.InternalMessageInfo
 type Period struct {
 	// Period duration in seconds.
 	Length int64                                    `protobuf:"varint,1,opt,name=length,proto3" json:"length,omitempty"`
-	Amount github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=amount,proto3,castrepeated=github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types.Coins" json:"amount"`
+	Amount github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=amount,proto3,castrepeated=github.com/opzlabs/cosmos-sdk/types.Coins" json:"amount"`
 }
 
 func (m *Period) Reset()      { *m = Period{} }

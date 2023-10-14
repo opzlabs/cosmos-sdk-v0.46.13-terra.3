@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/client/cli"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	"github.com/opzlabs/cosmos-sdk/x/gov/client/cli"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 	"github.com/stretchr/testify/require"
 )
 

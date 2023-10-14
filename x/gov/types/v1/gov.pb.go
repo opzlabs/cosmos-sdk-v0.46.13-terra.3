@@ -6,8 +6,8 @@ package v1
 import (
 	fmt "fmt"
 	_ "github.com/cosmos/cosmos-proto"
-	types1 "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/types"
-	types "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	types1 "github.com/opzlabs/cosmos-sdk/codec/types"
+	types "github.com/opzlabs/cosmos-sdk/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_types "github.com/gogo/protobuf/types"

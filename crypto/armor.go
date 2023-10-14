@@ -9,11 +9,11 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"golang.org/x/crypto/openpgp/armor" // nolint: staticcheck
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec/legacy"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keys/bcrypt"
-	cryptotypes "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/types"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/xsalsa20symmetric"
-	sdkerrors "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types/errors"
+	"github.com/opzlabs/cosmos-sdk/codec/legacy"
+	"github.com/opzlabs/cosmos-sdk/crypto/keys/bcrypt"
+	cryptotypes "github.com/opzlabs/cosmos-sdk/crypto/types"
+	"github.com/opzlabs/cosmos-sdk/crypto/xsalsa20symmetric"
+	sdkerrors "github.com/opzlabs/cosmos-sdk/types/errors"
 )
 
 const (

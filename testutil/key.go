@@ -3,9 +3,9 @@ package testutil
 import (
 	"fmt"
 
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/codec"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/crypto/keyring"
-	sdk "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/types"
+	"github.com/opzlabs/cosmos-sdk/codec"
+	"github.com/opzlabs/cosmos-sdk/crypto/keyring"
+	sdk "github.com/opzlabs/cosmos-sdk/types"
 )
 
 // GenerateCoinKey generates a new key mnemonic along with its addrress.

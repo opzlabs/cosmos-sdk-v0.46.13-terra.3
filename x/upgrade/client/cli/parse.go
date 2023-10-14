@@ -1,9 +1,9 @@
 package cli
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/client/cli"
-	gov "github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/gov/types/v1beta1"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/upgrade/types"
+	"github.com/opzlabs/cosmos-sdk/x/gov/client/cli"
+	gov "github.com/opzlabs/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/opzlabs/cosmos-sdk/x/upgrade/types"
 	"github.com/spf13/pflag"
 )
 

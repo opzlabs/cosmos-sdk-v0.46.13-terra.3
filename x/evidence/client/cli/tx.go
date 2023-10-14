@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/client"
-	"github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3/x/evidence/types"
+	"github.com/opzlabs/cosmos-sdk/client"
+	"github.com/opzlabs/cosmos-sdk/x/evidence/types"
 
 	"github.com/spf13/cobra"
 )
