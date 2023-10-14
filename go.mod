@@ -3,7 +3,7 @@ go 1.19
 module github.com/opzlabs/cosmos-sdk
 
 require (
-	cosmossdk.io/errors v1.0.0-beta.7
+	cosmossdk.io/errors v1.0.0
 	cosmossdk.io/math v1.0.0-rc.0
 	github.com/99designs/keyring v1.2.1
 	github.com/armon/go-metrics v0.4.1
@@ -36,6 +36,7 @@ require (
 	github.com/manifoldco/promptui v0.9.0
 	github.com/mattn/go-isatty v0.0.18
 	github.com/opzlabs/cosmos-db v0.1.3
+	github.com/opzlabs/cosmos-sdk-v0.46.13-terra.3 v0.1.3
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.14.0
 	github.com/prometheus/common v0.42.0
@@ -46,25 +47,25 @@ require (
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.13.0
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/tendermint/go-amino v0.16.0
 	github.com/tendermint/tendermint v0.34.28
 	github.com/tendermint/tm-db v0.6.7
 	github.com/tidwall/btree v1.5.0
-	golang.org/x/crypto v0.7.0
+	golang.org/x/crypto v0.11.0
 	golang.org/x/exp v0.0.0-20230310171629-522b1b587ee0
-	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
-	google.golang.org/grpc v1.54.0
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
+	google.golang.org/grpc v1.56.2
+	google.golang.org/protobuf v1.31.0
 	pgregory.net/rapid v0.4.7
 	sigs.k8s.io/yaml v1.3.0
 )
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
-	cloud.google.com/go/compute v1.18.0 // indirect
+	cloud.google.com/go/compute v1.19.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v0.12.0 // indirect
+	cloud.google.com/go/iam v0.13.0 // indirect
 	cloud.google.com/go/storage v1.28.1 // indirect
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
@@ -93,14 +94,14 @@ require (
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/godbus/dbus v0.0.0-20190726142602-4481cbc300e2 // indirect
-	github.com/golang/glog v1.0.0 // indirect
+	github.com/golang/glog v1.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
-	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.7.1 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/gsterjov/go-libsecret v0.0.0-20161001094733-a6f4afe4910c // indirect
 	github.com/gtank/merlin v0.1.1 // indirect
@@ -124,7 +125,6 @@ require (
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mtibben/percent v0.2.1 // indirect
-	github.com/onsi/gomega v1.20.0 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.7 // indirect
 	github.com/petermattis/goid v0.0.0-20230317030725-371a4b8eda08 // indirect
@@ -132,7 +132,6 @@ require (
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/procfs v0.9.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
-	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	github.com/rs/cors v1.8.2 // indirect
 	github.com/sasha-s/go-deadlock v0.3.1 // indirect
 	github.com/spf13/afero v1.8.2 // indirect
@@ -144,13 +143,13 @@ require (
 	github.com/zondax/ledger-go v0.14.1 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/net v0.9.0 // indirect
-	golang.org/x/oauth2 v0.5.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
-	golang.org/x/term v0.7.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/net v0.12.0 // indirect
+	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/sys v0.10.0 // indirect
+	golang.org/x/term v0.10.0 // indirect
+	golang.org/x/text v0.11.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
-	google.golang.org/api v0.110.0 // indirect
+	google.golang.org/api v0.114.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
